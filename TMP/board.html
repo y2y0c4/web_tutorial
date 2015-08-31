@@ -6,31 +6,30 @@
 </head>
 <style type="text/css">
 .board1{
-	border-top: 2px solid #707070;
-	border-bottom: 2px solid #707070;
+	border-top: 3px solid #707070;
+	border-bottom: 3px solid #707070;
 	font-family: helvetica; 
 	width:1000px;
 	border-collapse: collapse;
 }
 .board1-head{
-	background-color: #f1f1f1;
-	height:25px;
-	border-bottom: 1px solid #707070;
-	font-size:12px;
+	font-weight: bold;
+	background-color: #EAEAEA;
+	height:42px;
+	border-bottom: 1px solid #b0b0b0;
+	font-size:11px;
 	text-align: center;
 }
 .board-notice{
-	height: 22px;
+	height: 40px;
 	font-size: 12px;
-	border-bottom: 1px solid #707070;
+	font-weight: bold;
+	border-bottom: 1px solid #b0b0b0;
 }
 .board-normal{
-	height:22px;
+	height:40px;
 	border-bottom: 1px solid #d0d0d0;
 	font-size: 12px;
-}
-.board1.even{
-	background-color: #111111;
 }
 .num{
 	text-align: center;
@@ -41,12 +40,10 @@
 	width:600px;
 }
 .auth{
-	
 	text-align: center;
 	width:100px;
 }
 .b-date{
-
 	text-align: center;
 	width:100px;
 }
@@ -54,128 +51,201 @@
 	text-align: center;
 	width:80px;
 }
-
+.btn-write{
+	width: 70px;
+	height: 19px;
+	background-color: #707070;
+	color:#ffffff;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 5px;
+	padding: 2px;
+	float: right;
+	cursor: pointer;
+}
+.board-td{
+	border: 1px solid #d0d0d0;
+	width:80px;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	text-align: center;
+}
+.board-list a{
+	text-align: center;
+	cursor: pointer;
+}
+.board-category{
+	border-collapse: collapse;
+	margin: 0px;
+}
+.board-list .board-td-on{
+	border: 1px solid #707070;
+	font-weight: bold;
+}
+.board{
+	width: 1000px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.btn-submit{
+	border:0px;
+	font-size:12px;
+	font-weight: bold;
+	background: #707070;
+	color : #ffffff;
+	width: 50px;
+	height: 22px;
+	margin-top: 5px;
+	padding: 2px;
+	text-align: center;
+	cursor: pointer;
+}
 </style>
 
 <body>
-
-</table>
+<div class='board' >
+	<nav class="board-list">
+		<h2>Free Board</h2>
+		<table class='board-category'>
+		<tr class='board-category'>
+		<td class='board-td'><a>전체</a></td>
+		<td class='board-td'><a>자유</a></td>
+		<td class='board-td'><a>기타</a></td>
+		<tr>
+		</table>
+	</nav>
 <h1>board</h1>
-<div class='boad-wrapper'>
-<table class='board1'>
-	<tr class='board1-head'>
-		<td class='num'>번호</td>
-		<td class='b-title'>제목</td>
-		<td class='auth'>작성자</td>
-		<td class='b-date'>날짜</td>
-		<td class='b-cl'>조회수</td>
-	</tr> 
-	<tr class='board-notice'>
-		<td class='num'>번호</td>
-		<td class='b-title'>제목</td>
-		<td class='auth'>작성자</td>
-		<td class='b-date'>날짜</td>
-		<td class='b-cl'>조회수</td>
-	</tr>
-	<tr class='board-normal'>
-		<td class='num'>번호</td>
-		<td class='b-title'>제목</td>
-		<td class='auth'>작성자</td>
-		<td class='b-date'>날짜</td>
-		<td class='b-cl'>조회수</td>
-	</tr>
-	<tr class='board-normal'>
-		<td class='num'>번호</td>
-		<td class='b-title'>제목</td>
-		<td class='auth'>작성자</td>
-		<td class='b-date'>날짜</td>
-		<td class='b-cl'>조회수</td>
-	</tr>
-	<tr class='board-normal'>
-		<td class='num'>번호</td>
-		<td class='b-title'>제목</td>
-		<td class='auth'>작성자</td>
-		<td class='b-date'>날짜</td>
-		<td class='b-cl'>조회수</td>
-	</tr>
-	<tr class='board-normal'>
-		<td class='num'>번호</td>
-		<td class='b-title'>제목</td>
-		<td class='auth'>작성자</td>
-		<td class='b-date'>날짜</td>
-		<td class='b-cl'>조회수</td>
-	</tr>
-	<tr class='board-normal'>
-		<td class='num'>번호</td>
-		<td class='b-title'>제목</td>
-		<td class='auth'>작성자</td>
-		<td class='b-date'>날짜</td>
-		<td class='b-cl'>조회수</td>
-	</tr>
-	<tr class='board-normal'>
-		<td class='num'>번호</td>
-		<td class='b-title'>제목</td>
-		<td class='auth'>작성자</td>
-		<td class='b-date'>날짜</td>
-		<td class='b-cl'>조회수</td>
-	</tr>
-	<tr class='board-normal'>
-		<td class='num'>번호</td>
-		<td class='b-title'>제목</td>
-		<td class='auth'>작성자</td>
-		<td class='b-date'>날짜</td>
-		<td class='b-cl'>조회수</td>
-	</tr>
-	<tr class='board-normal'>
-		<td class='num'>번호</td>
-		<td class='b-title'>제목</td>
-		<td class='auth'>작성자</td>
-		<td class='b-date'>날짜</td>
-		<td class='b-cl'>조회수</td>
-	</tr>
-	<tr class='board-normal'>
-		<td class='num'>번호</td>
-		<td class='b-title'>제목</td>
-		<td class='auth'>작성자</td>
-		<td class='b-date'>날짜</td>
-		<td class='b-cl'>조회수</td>
-	</tr>
-	<tr class='board-normal'>
-		<td class='num'>번호</td>
-		<td class='b-title'>제목</td>
-		<td class='auth'>작성자</td>
-		<td class='b-date'>날짜</td>
-		<td class='b-cl'>조회수</td>
-	</tr>
-	<tr class='board-normal'>
-		<td class='num'>번호</td>
-		<td class='b-title'>제목</td>
-		<td class='auth'>작성자</td>
-		<td class='b-date'>날짜</td>
-		<td class='b-cl'>조회수</td>
-	</tr>
-	<tr class='board-normal'>
-		<td class='num'>번호</td>
-		<td class='b-title'>제목</td>
-		<td class='auth'>작성자</td>
-		<td class='b-date'>날짜</td>
-		<td class='b-cl'>조회수</td>
-	</tr>
-	<tr class='board-normal'>
-		<td class='num'>번호</td>
-		<td class='b-title'>제목</td>
-		<td class='auth'>작성자</td>
-		<td class='b-date'>날짜</td>
-		<td class='b-cl'>조회수</td>
-	</tr>
-	<tr class='board-normal'>
-		<td class='num'>번호</td>
-		<td class='b-title'>제목</td>
-		<td class='auth'>작성자</td>
-		<td class='b-date'>날짜</td>
-		<td class='b-cl'>조회수</td>
-	</tr>
-</table>
+	<div class='boad-wrapper' >
+	<table class='board1'>
+		<tr class='board1-head'>
+			<td class='num'>번호</td>
+			<td class='b-title'>제목</td>
+			<td class='auth'>작성자</td>
+			<td class='b-date'>날짜</td>
+			<td class='b-cl'>조회수</td>
+		</tr> 
+		<tr class='board-notice'>
+			<td class='num'>번호</td>
+			<td class='b-title'>제목</td>
+			<td class='auth'>작성자</td>
+			<td class='b-date'>날짜</td>
+			<td class='b-cl'>조회수</td>
+		</tr>
+		<tr class='board-normal'>
+			<td class='num'>번호</td>
+			<td class='b-title'>제목</td>
+			<td class='auth'>작성자</td>
+			<td class='b-date'>날짜</td>
+			<td class='b-cl'>조회수</td>
+		</tr>
+		<tr class='board-normal'>
+			<td class='num'>번호</td>
+			<td class='b-title'>제목</td>
+			<td class='auth'>작성자</td>
+			<td class='b-date'>날짜</td>
+			<td class='b-cl'>조회수</td>
+		</tr>
+		<tr class='board-normal'>
+			<td class='num'>번호</td>
+			<td class='b-title'>제목</td>
+			<td class='auth'>작성자</td>
+			<td class='b-date'>날짜</td>
+			<td class='b-cl'>조회수</td>
+		</tr>
+		<tr class='board-normal'>
+			<td class='num'>번호</td>
+			<td class='b-title'>제목</td>
+			<td class='auth'>작성자</td>
+			<td class='b-date'>날짜</td>
+			<td class='b-cl'>조회수</td>
+		</tr>
+		<tr class='board-normal'>
+			<td class='num'>번호</td>
+			<td class='b-title'>제목</td>
+			<td class='auth'>작성자</td>
+			<td class='b-date'>날짜</td>
+			<td class='b-cl'>조회수</td>
+		</tr>
+		<tr class='board-normal'>
+			<td class='num'>번호</td>
+			<td class='b-title'>제목</td>
+			<td class='auth'>작성자</td>
+			<td class='b-date'>날짜</td>
+			<td class='b-cl'>조회수</td>
+		</tr>
+		<tr class='board-normal'>
+			<td class='num'>번호</td>
+			<td class='b-title'>제목</td>
+			<td class='auth'>작성자</td>
+			<td class='b-date'>날짜</td>
+			<td class='b-cl'>조회수</td>
+		</tr>
+		<tr class='board-normal'>
+			<td class='num'>번호</td>
+			<td class='b-title'>제목</td>
+			<td class='auth'>작성자</td>
+			<td class='b-date'>날짜</td>
+			<td class='b-cl'>조회수</td>
+		</tr>
+		<tr class='board-normal'>
+			<td class='num'>번호</td>
+			<td class='b-title'>제목</td>
+			<td class='auth'>작성자</td>
+			<td class='b-date'>날짜</td>
+			<td class='b-cl'>조회수</td>
+		</tr>
+		<tr class='board-normal'>
+			<td class='num'>번호</td>
+			<td class='b-title'>제목</td>
+			<td class='auth'>작성자</td>
+			<td class='b-date'>날짜</td>
+			<td class='b-cl'>조회수</td>
+		</tr>
+		<tr class='board-normal'>
+			<td class='num'>번호</td>
+			<td class='b-title'>제목</td>
+			<td class='auth'>작성자</td>
+			<td class='b-date'>날짜</td>
+			<td class='b-cl'>조회수</td>
+		</tr>
+		<tr class='board-normal'>
+			<td class='num'>번호</td>
+			<td class='b-title'>제목</td>
+			<td class='auth'>작성자</td>
+			<td class='b-date'>날짜</td>
+			<td class='b-cl'>조회수</td>
+		</tr>
+		<tr class='board-normal'>
+			<td class='num'>번호</td>
+			<td class='b-title'>제목</td>
+			<td class='auth'>작성자</td>
+			<td class='b-date'>날짜</td>
+			<td class='b-cl'>조회수</td>
+		</tr>
+		<tr class='board-normal'>
+			<td class='num'>번호</td>
+			<td class='b-title'>제목</td>
+			<td class='auth'>작성자</td>
+			<td class='b-date'>날짜</td>
+			<td class='b-cl'>조회수</td>
+		</tr>
+	</table>
+	</div>
+	<div>	
+		<span class='btn-write'>글쓰기</span>
+	</div>
+	<div>
+	<form>
+		<select name='board-search'>
+			<option value=''>제목</option>
+			<option value=''>내용</option>
+			<option value=''>글쓴이</option>
+		</select>
+		<input type='text'/>
+		<input type='submit' value='검색' class='btn-submit'/>
+	</form>
+	</div>
 </div>
 </body>
 </html>

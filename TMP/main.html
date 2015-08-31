@@ -29,12 +29,12 @@
 						<table>
 							<tr>
 								<!-- //login     -->	
-								<td><span class='btn-login' style='display:none'>LOGIN</span></td>
-								<td><span class='btn-logout' disabled=false>LOGOUT</span></td>
+								<td><span class='btn-login' >LOGIN</span></td>
+								<td><span class='btn-logout'>LOGOUT</span></td>
 								<td class='btn-space'>|</td>
 								<!-- //sign up   -->
-								<td><a href="#" class='btn-signup' disabled='true'>SIGN UP</td>
-								<td><a href="/" class='btn-mypage' disabled='false'>MY PAGE</td>
+								<td><a href="#" class='btn-signup'>SIGN UP</td>
+								<td><a href="/" class='btn-mypage'>MY PAGE</td>
 								<!-- after login     -->
 							<!--
 								<td><span class='btn-logout'>LOGOUT</span></td>
@@ -61,6 +61,7 @@
 				</tr>
 			</table>
 		</header>
+		
 		<div class="body-wrapper" width="100%" cellpadding="0" cellspacing="0" align='center' style="margin:0 auto">
 			<table>
 				<tr>
@@ -220,10 +221,11 @@ $(window).load(function(){
 		$('.main-pop').css('visibility','hidden');
 	});
 	$('.btn-login').bind("click", function(){	
-		$('.wrapper-login').fadeIn(1000);
+		$('.wrapper-login').fadeIn(500);
+		$('.btn-login').css('disabled','true');
 	});
   	$('.xbtn').bind("click", function(e){
-		$('.wrapper-login').fadeOut(1000);
+		$('.wrapper-login').fadeOut(500);
 	});  
 
 });

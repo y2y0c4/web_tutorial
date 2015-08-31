@@ -267,3 +267,107 @@ input[type=submit]{
   background: #e5e5e5;
   border-radius: 3px;
 }
+
+
+
+/*
+
+board
+
+*/
+.board1{
+	border-top: 3px solid #707070;
+	border-bottom: 3px solid #707070;
+	font-family: helvetica; 
+	width:1000px;
+	border-collapse: collapse;
+}
+.board1-head{
+	font-weight: bold;
+	background-color: #EAEAEA;
+	height:42px;
+	border-bottom: 1px solid #b0b0b0;
+	font-size:11px;
+	text-align: center;
+}
+.board-notice{
+	height: 40px;
+	font-size: 12px;
+	font-weight: bold;
+	border-bottom: 1px solid #b0b0b0;
+}
+.board-normal{
+	height:40px;
+	border-bottom: 1px solid #d0d0d0;
+	font-size: 12px;
+}
+.num{
+	text-align: center;
+	width:80px;
+}
+.b-title{
+	
+	width:600px;
+}
+.auth{
+	text-align: center;
+	width:100px;
+}
+.b-date{
+	text-align: center;
+	width:100px;
+}
+.b-cl{
+	text-align: center;
+	width:80px;
+}
+.btn-write{
+	width: 70px;
+	height: 19px;
+	background-color: #707070;
+	color:#ffffff;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 5px;
+	padding: 2px;
+	float: right;
+	cursor: pointer;
+}
+.board-td{
+	border: 1px solid #d0d0d0;
+	width:80px;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	text-align: center;
+}
+.board-list a{
+	text-align: center;
+	cursor: pointer;
+}
+.board-category{
+	border-collapse: collapse;
+	margin: 0px;
+}
+.board-list .board-td-on{
+	border: 1px solid #707070;
+	font-weight: bold;
+}
+.board{
+	width: 1000px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.btn-submit{
+	border:0px;
+	font-size:12px;
+	font-weight: bold;
+	background: #707070;
+	color : #ffffff;
+	width: 50px;
+	height: 22px;
+	margin-top: 5px;
+	padding: 2px;
+	text-align: center;
+	cursor: pointer;
+}
