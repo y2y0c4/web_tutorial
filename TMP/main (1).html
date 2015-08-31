@@ -1,0 +1,243 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Test</title>
+	<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge, chrome=1'>
+
+	<script type='text/javascript' src='http://code.jquery.com/jquery.min.js'></script>
+	<link href='css/owl.theme.css' rel="stylesheet"/>
+	<link href='css/owl.carousel.css' rel="stylesheet"/>
+	<link href='css/base.css' rel="stylesheet"/>
+	<link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body style="margin: 0px;" bgcolor="transparent">
+	<div id="wrapper"> 
+	<!-- top line-->
+		<div class='roof' style="width:100%; height:0px; border:1px solid #e5e5e5; margin:0; padding:0;"></div>
+		<!-- top line-->
+		<!-- wrapper -->
+		<div class='center-wrapper' style="width:1000px; margin:0 auto;">
+		<!-- header-->
+			<div class='center-header'>
+				<table width="1000" cellpadding="0" cellspacing="0">
+					<!-- menu... -->
+					<tr style="border:1px solid black">
+						<td width='180' align='center' valign='bottom' rowspan='3' >
+							<a href="/" ><img src="http://placehold.it/180x55&text=LOGO/dfe1c1" width='180'/></a>
+						</td>
+						<td width="10" rowspan="3"></td>
+						<td width ='800' align="right">
+							<table>
+								<tr>
+									<!-- //login     -->	
+									<td><span id='btn-login'>LOGIN</span></td>
+									<td id='btn-space'>|</td>
+									<!-- //sign up   -->
+									<td><a href="/" id='btn-signup'>SIGN UP</td>
+									<td id='btn-space'>|</td>
+									<!-- //mypage     -->
+									<td><a href="/" id='btn-mypage'>MY PAGE</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<!--empty space-->
+					<tr><td height="35"></td></tr>
+					<!-- boards-->
+					<tr>
+						<td>
+						<table id="menu-table" width='100%' >
+							<td><a href="#" id='menu1'>MENU1</a></td>
+							<td><a href="#" id='menu2'>MENU2</a></td>
+							<td><a href="#" id='menu3'>MENU3</a></td>
+							<td><a href="#" id='menu4'>MENU4</a></td>
+							<td><a href="#" id='menu5'>MENU5</a></td>
+						</table>
+						</td>
+					</tr>
+				</table>
+			</div>
+		<!-- /header-->
+		<!-- slider-->
+			<div class='main-backstretch'>
+				<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+				<h1 id="main-text" align="center">INTRODUCING TEXT LINE</h1>	
+			</div>
+		<!-- /slider-->
+		<!-- notice-->
+			<div id="noti-header" align='Center'>NOTICE-MENU
+				<table id='noti-' >
+					<tr>
+						<td width="40px"> 
+							<div class="nav-prev" align='center'></div>
+						</td>
+						<td>
+							<div id="noti-carousel">
+								<div class="item" id="not1"><img src="http://placehold.it/280x380&text=MENU1/f3e0c2"></div>
+							  	<div class="item" id="not2"><img src="http://placehold.it/280x380&text=MENU2/c2e1f1"></div>
+							  	<div class="item" id="not3"><img src="http://placehold.it/280x380&text=MENU3/dff0c4"></div>
+							  	<div class="item" id="not4"><img src="http://placehold.it/280x380&text=MENU4/dfd3bf"></div>
+							  	<div class="item" id="not5"><img src="http://placehold.it/280x380&text=MENU5/ddf1cf"></div>
+							</div>	
+						</td>
+						<td width="40px">
+							<div class="nav-next" align="center"></div>
+						</td>
+					</tr>	
+				</table>
+			</div>
+			<br/><br/>		<br/><br/>		<br/><br/>		<br/><br/>		
+
+
+		<!-- /notice-->
+		<!-- etc -->
+			<div id='etc-header' align="center">
+				ETC NOTICE
+			</div>
+			<div id="etc-board" align='center' >
+				<span id="etc1" style="margin:15px;"><img src="http://placehold.it/280x380&text=MENU1/f3e0c2"></span>
+			  	<span id="etc2" style="margin:15px;"><img src="http://placehold.it/280x380&text=MENU2/c2e1f1"></span>
+			  	<span id="etc3" style="margin:15px;"><img src="http://placehold.it/280x380&text=MENU3/dff0c4"></span>
+			</div>	
+
+		<!-- /etc -->
+		<!-- remote-control && popup -->
+		 	<!-- 팝업 -->
+			<div id='main-pop' align='center'>
+				<table >
+					<tr id='mp-tb' align='center'>
+
+					</tr>
+					<tr>
+						<td id='exit-chk'>
+							<input id='chkbox'type='checkbox' value='checkbox'>[close]</input>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<!-- 로그인 창 팝업 -->
+			<div id ='layer-lg'>
+				<div class='login-bg'></div>
+				<div class='login-pop' id='layer2-lg' align='center'>
+						<table id='lg-pop' align='center'>
+							<tr>
+								<td id='btn-x'><span >X</span></td>
+							</tr>
+							<tr>
+								<td>
+									<form action="#">
+										<table id='sign_table' align='center'>
+											<tr>
+												<td id='id-tr' >
+												<div id='input-id'> ID : </div>
+												<input type='text' id='id-form' placeholder='ID'></input>
+												</td>
+											</tr>
+											<tr>
+												<td id='pw-tr'>
+												<div id='input-pw'> PW : </div>
+												<input type='password' id='pw-form' placeholder='PASSWORD'></input>
+												</td>
+											</tr>
+											<tr>
+												<td align='right'>	
+												<input type='submit' value='LOGIN' id='btn-signin'/>
+												</td>
+											</tr>
+										</table>
+									</form>
+								</td>
+							</tr>
+							<!-- 아이디찾기 등등 -->
+							<tr>
+								<td>
+								</td>
+							</tr>	
+							<!-- 아이디찾기 등등 -->
+						</table>
+					
+				</div>
+			</div>
+			<!-- 리모컨 -->
+
+
+		<!-- remote-control && popup -->
+		</div>
+	</div>
+
+
+	</body>
+<script type="text/javascript">
+	
+$(document).ready(function(){
+	$('#menu1').mouseenter(function(){
+		$('#menu1').css('border-top','thick solid #707070');
+	})
+	$('#menu2').mouseenter(function(){
+		$('#menu2').css('border-top','thick solid #707070');
+	})
+	$('#menu3').mouseenter(function(){
+		$('#menu3').css('border-top','thick solid #707070');
+	})
+	$('#menu4').mouseenter(function(){
+		$('#menu4').css('border-top','thick solid #707070');
+	})
+	$('#menu5').mouseenter(function(){
+		$('#menu5').css('border-top','thick solid #707070');
+	})
+	$('#menu1').mouseleave(function(){
+		$('#menu1').css('border-top','thick solid transparent');
+	})
+	$('#menu2').mouseleave(function(){
+		$('#menu2').css('border-top','thick solid transparent');
+	})
+	$('#menu3').mouseleave(function(){
+		$('#menu3').css('border-top','thick solid transparent');
+	})
+	$('#menu4').mouseleave(function(){
+		$('#menu4').css('border-top','thick solid transparent');
+	})
+	$('#menu5').mouseleave(function(){
+		$('#menu5').css('border-top','thick solid transparent');
+	})
+
+    $("#noti-carousel").owlCarousel({
+    	autoPlay: 3000,
+        items : 3,
+        itemsDesktop : [900,3],
+        itemsDesktopSmall : [900,3]
+    });
+    $(".nav-next").click(function(){
+        $("#noti-carousel").trigger('owl.next');
+      });
+    $(".nav-prev").click(function(){
+        $("#noti-carousel").trigger('owl.prev');
+      });
+});
+$(window).load(function(){
+	$('.main-backstretch').backstretch([
+		"http://placehold.it/1000X400&text=PICTURE1/ed94a6",
+		"http://placehold.it/1000X400&text=PICTURE2/23ef8d",
+		"http://placehold.it/1000x400&text=PICTURE3/f5d3bb",
+		"http://placehold.it/1000x400&text=PICTURE4/55a1e3"
+		],{duration: 3000, fade:750});
+
+	$('#chkbox').bind("click",function(){
+		var chk = $(':checkbox:checked');
+		$('#main-pop').css('visibility','hidden');
+	});
+	$('#btn-login').bind("click", function(){	
+		$('#layer-lg').fadeIn(1000);
+	});
+  	$('#btn-x').bind("click", function(e){
+		$('#layer-lg').fadeOut(1000);
+	});  
+
+});
+
+</script>
+<script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.js"></script>
+</html>

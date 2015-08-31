@@ -1,0 +1,269 @@
+/*
+	userdefine
+*/
+a{
+	text-decoration: none;
+}
+input[type=submit]{
+	font-family: helvetica;
+	font-weight: bold;
+	color:#707070;
+}
+.wrapper{
+	width: 100%;
+
+}
+.btn-login{
+	font-size:11px;
+	font-weight: bold;
+	font-family: helvetica;
+	color: #707070;
+}
+.btn-signup{
+	font-size:11px;
+	font-weight: bold;
+	font-family: helvetica;
+	color: #707070;
+}
+.btn-mypage{
+	font-size:11px;
+	font-weight: bold;
+	font-family: helvetica;
+	color: #707070;
+}
+.btn-logout{
+	font-size:11px;
+	font-weight: bold;
+	font-family: helvetica;
+	color: #707070;	
+}
+.btn-space{
+	font-size:11px;
+	font-family: helvetica;
+	color: #707070;
+}
+.menu-table{
+	text-align: center;
+}
+.menu1{
+	border-top:thick solid transparent;
+	font-size: 20px;
+	font-weight: bold; 
+	color: #707070;
+	text-align: center;
+	width:80px;
+	font-family: helvetica;
+}
+.menu2{
+	border-top:thick solid transparent; 
+	font-size: 20px;
+	font-weight: bold; 
+	color: #707070;
+	text-align: center;
+	width:80px;
+	font-family: helvetica;
+}
+.menu3{
+	border-top:thick solid transparent; 
+	font-size: 20px;
+	font-weight: bold; 
+	color: #707070;
+	text-align: center;
+	width:80px;
+	font-family: helvetica;
+}
+.menu4{
+	border-top:thick solid transparent;
+	font-size: 20px;
+	font-weight: bold; 
+	color: #707070;
+	text-align: center;
+	width:80px;
+	font-family: helvetica;
+}
+.menu5{
+	border-top:thick solid transparent;
+	font-size: 20px;
+	font-weight: bold; 
+	color: #707070; 
+	text-align: center;
+	width:80px;
+	font-family: helvetica;
+}
+.body-wrapper{
+	margin: 0 auto;
+}
+.boody-wrapper>.left-wing{
+	float: left;
+	margin:0 auto;
+}
+.body-wrapper>.right-wing{
+	float: right;
+	margin:0 auto;
+}
+.body-wrapper>.middle{
+	float: center;
+	margin: 0 auto;
+}
+.main-text{
+		color: #ffffff;
+		font-family: helvetica;
+}
+.main-backstretch{ 
+	width:1000px; 
+	height:400px; 
+	border-top:2px solid gray;
+	border-bottom:2px solid gray;
+}
+#not1{
+	width:280px;
+	height:380px;
+	overflow: hidden;
+	float:left;
+	background-image: url(http://placehold.it/300x400);
+}
+#not2{
+	width:280px;
+	height:380px;
+	overflow: hidden;
+	float:left;
+	background-image: url(http://placehold.it/300x400);
+}
+#not3{
+	width:280px;
+	height:380px;
+	overflow: hidden;
+	float:left;
+	background-image:  url(http://placehold.it/300x400);
+}
+#not4{
+	width:280px;
+	height:380px;
+	overflow: hidden;
+	float:left;
+	background-image:  url(http://placehold.it/300x400);
+}
+.noti-carousel .item{
+    margin: 15px;
+}
+.noti-carousel{
+	width:900px;
+	height:400px;
+	margin: 0 auto;
+}
+.nav-prev{
+	opacity: 0.7;
+	width:25px;
+	height:38px;
+	background:transparent url(../img/arrows_prev.png) no-repeat top left;
+	top:50%;
+	left:auto;
+	cursor: pointer;
+}
+.nav-next{
+	opacity: 0.7;
+	width:45px;
+	height:38px;
+	background:transparent url(../img/arrows_next.png) no-repeat right;
+	top:50%;
+	left:auto;
+	cursor: pointer;
+}
+.main-pop{
+	width:400px;
+	height: 400px;
+	position: absolute;
+	top:20%;
+	left:50%;
+	background-color: #ffffff;
+	background-image: url(http://placehold.it/400x380&text=POPUP/cddeef);
+	visibility: hidden;
+	margin-left: -200px;
+	z-index: 9999px;
+	border: 5px solid #707070;
+		
+}
+.noti-header, .etc-header{
+	font-size: 30px;
+	font-family: helvetica;
+	font-weight: bold;
+	margin-top: 10px;
+
+}
+
+.mp-tb{
+	width:400px;
+	height: 370px;
+	text-align: right;
+	border: thick solid #aaaaaa;
+}
+.exit-chk{
+	font-size: 15px;
+	font-family: helvetica;
+	font-weight: bold;
+	color: #707070;
+}
+
+
+.wrapper-login{
+	display: none;
+	width: 100%;
+	height: 100%;
+	z-index: 10px;
+}
+.bg-login{
+	position:absolute; 
+	top:0; 
+	left:0; 
+	width:100%;
+	height:100%; 
+	background:#000; 
+	opacity:0.8;
+}
+
+
+.login-pop{
+	display: block;	
+}
+#layer-login{
+
+	width:310px;
+	position: absolute;
+	top:20%;
+	left:50%;
+	background-color: #e5e5e5;
+	margin-left: -150px;
+	z-index: 300px;
+	border: 5px solid #707070;
+	font-weight: bold;
+	font-family: helvetica;
+	color: #707070;
+	border-radius: 3px;
+		
+}
+
+.btn-signin{
+	height: 30px;
+	font-family: helvetica;
+	font-weight: bold;
+	margin-right:40px;
+
+}
+.btn-x{
+	height:20px;
+	cursor: pointer;
+	text-align: right;
+}
+
+.etc-login{
+	font-size: 5px;
+	font-family: helvetica;
+}
+.login {
+  position: relative;
+  margin: 0 auto;
+
+  width: 310px;
+  background: #e5e5e5;
+  border-radius: 3px;
+}
